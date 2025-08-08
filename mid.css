@@ -1,0 +1,71 @@
+/* Style for all h2 headings */
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: red;
+  border: 2px solid black;
+  outline: 4px solid #4CAF50; /* made outline thicker and with hex color */
+  margin: 20px auto; /* vertical margin for spacing */
+  padding: 30px; /* increased from 15px */
+  max-width: 700px; /* keep it aligned with container */
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  text-align: center;
+  background-color: rgb(252, 244, 244);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 40px; /* increased from 20px */
+  color: #333;
+}
+
+/* Style for select dropdowns */
+select {
+  color: blueviolet;
+  padding: 16px 24px; /* increased padding */
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Paragraph text color */
+p {
+  color: rgb(255, 0, 123);
+  font-size: 18px;
+  line-height: 1.4;
+  max-width: 700px;
+  margin: 20px auto; /* increased margin */
+}
+
+/* Button styling */
+button {
+  color: white;
+  background-color: blue;
+  width: 170px; /* slightly wider */
+  padding: 15px 25px; /* increased padding */
+  border: none;
+  border-radius: 6px;
+  font-size: 18px; /* slightly bigger font */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: darkblue;
+}
+
+/* Container styling */
+.con {
+  width: 700px;
+  background-color: rgb(186, 187, 184);
+  margin: 40px auto; /* increased margin */
+  padding: 40px; /* increased padding */
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  box-sizing: border-box;
+  text-align: left;
+}
